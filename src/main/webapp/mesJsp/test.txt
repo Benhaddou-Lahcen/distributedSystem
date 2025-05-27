@@ -1,0 +1,12 @@
+<ul>
+<h3>
+<li> Professeur</li>
+<li> Etudiants GI </li>
+</h3>
+</ul>
+<% int fact=1;%>
+<% for(int i=1;i<=10;i++)
+{%>
+<% fact*=i;%>
+<H3> fact de <%=i%> est egal a <%=fact%> </H3>
+<%}%>
